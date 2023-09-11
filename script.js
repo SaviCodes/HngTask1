@@ -1,14 +1,14 @@
 const dateClock = setInterval(function dateTime() {
     const today = new Date();
     let date = today.getDate();
-    let day = weekdays[today.getDay()];
-    let month = monthNames[today.getMonth()];
+    // let day = weekdays[today.getDay()];
+    // let month = monthNames[today.getMonth()];
   
 
   }, 1000);
   
           setInterval(()=>{
-              const time = document.querySelector(".time");
+            const time = document.querySelector(".time");
           let date = new Date();
           let hours = date.getHours()
           let minutes = date.getMinutes()
