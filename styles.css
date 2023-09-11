@@ -1,21 +1,40 @@
-* {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+    box-sizing: 0;
 }
 
 body {
-    background-color: gainsboro;
-    margin: 30px;
+    margin-left: 38%;
+    margin-top: 50px;
+    background-color: gray;
 }
 
-div {
-    text-align: center;
-    margin: 20px;
+div h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+    color: black;
 }
 
-img {
-    width: 400px;
-    border-radius: 30px;
+
+div,img{
+    max-width: 58%;
+    max-height: 30%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+h2,#date{
+    font-family: sans-serif;
+    font-size: 15px;
+    display: flex;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 20px;
 }
